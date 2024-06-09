@@ -18,14 +18,8 @@ public final class App {
         
         
         
-        /* Method for removeTasks and modifyTasks
-        public int taskToModify(){
-            
-            Scanner sc = new Scanner(System.in);
-            int userChoice = sc.nextInt("insert the number of the task you want to change");
-            int taskToChange = userChoice -1;
-            return taskToChange;
-        }*/
+        Method for removeTasks and modifyTasks
+        
         
     }
 }

@@ -7,6 +7,7 @@ public class Task extends CrudService {
 
     // constructor
     public Task() {
+       super();
         this.isCompleted = false;
     }
 
@@ -24,7 +25,7 @@ public class Task extends CrudService {
     }
 
     public void setIsCompleted(boolean isCompleted) {
-        this.isCompleted = false;
+        this.isCompleted = isCompleted;
     }
 
 }
